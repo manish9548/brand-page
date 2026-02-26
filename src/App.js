@@ -1,25 +1,13 @@
 import "./App.css";
-
+import HeroSection from "./components/Hero";
+import Navigation from "./components/Navigation";
 
 
 const App=() =>{
 
   return <div>
-    <nav>
-    <div className="logo">
-      <img src="/image/brand_logo.png" alt="logo"/>
-
-
-      </div>
-      <ul>
-        <li href="#">Menu</li>
-        <li href="#">Location</li>
-        <li href="#">About</li>
-        <li href="#">Contact</li>
-      </ul>
-      <button>login</button>
-    </nav>
-    
+    <Navigation/>
+    <HeroSection/>
 
   </div>;
 };
